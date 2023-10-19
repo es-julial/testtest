@@ -1,6 +1,17 @@
 import React from "react";
 import "./Skills.css";
+const PDF_FILE_URL = "http://localhost:3000/myCV.pdf";
+
 const Skills = () => {
+	const downloadFileAtURL = (url) => {
+		const filename = url.split("/").pop();
+		const aTag = document.createElement("a");
+		aTag.href = url;
+		aTag.setAttribute("download", filename);
+		document.body.appendChild(aTag);
+		aTag.click();
+		aTag.remove();
+	};
 	return (
 		<div className="skills-container" id="skills">
 			<div className="skills-list-container">
@@ -19,7 +30,13 @@ const Skills = () => {
 						repellendus dolorum. Numquam quisquam laborum doloremque eum nostrum
 						quia.
 					</p>
-					<button>Hire Me</button>
+					<button
+						onClick={() => {
+							downloadFileAtURL(PDF_FILE_URL);
+						}}
+					>
+						Hire Me
+					</button>
 				</div>
 				{/* items */}
 				<div className="skills-item-container">

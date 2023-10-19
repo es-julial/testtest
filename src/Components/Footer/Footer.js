@@ -4,13 +4,13 @@ import "./Footer.css"
 const Footer = () => {
 	return (
 		<footer>
-			<div className="footer-logo" id="contact">
+			<div className="footer-logo">
 				<img src={logo} alt="logo" />
 			</div>
 
 			{/* copyright */}
 			<div className="footer-cpyright">
-				<p>© 2023 Julial Maesser. All rights reserved</p>
+				<p>© 2023 Precious Onyeukwu. All rights reserved</p>
 			</div>
 			{/* social */}
 			<ul className="footer-social-media">

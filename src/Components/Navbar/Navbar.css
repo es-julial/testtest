@@ -30,7 +30,7 @@ nav ul li a {
 }
 /* +1:-#fcb212 2:#e08804 +1:#89f3f3 2:#73c9c9 3:#308282  */
 nav ul li:hover {
-	background-color: #89f3f3;
+	background-color: #f27f92;
 	color: #fff;
 	padding: 5px;
 }

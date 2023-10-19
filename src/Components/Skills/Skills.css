@@ -41,11 +41,11 @@
 /* 1:#fcb212 +2:#e08804 1:#89f3f3 +2:#5cb1b1 3:#308282  */
 .skills-container h1 span {
 	font-size: 2.5rem;
-	color: #5cb1b1;
+	color: #e5576f;
 }
 /* +1:#fcb212 2:#e08804 1:#89f3f3 2:#5cb1b1 +3:#308282  */
 .skills-container button {
-	background-color: #308282;
+	background-color: #a53f50;
 	border: none;
 	border-radius: 5px;
 	color: #fff;
